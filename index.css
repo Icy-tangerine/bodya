@@ -1,0 +1,21 @@
+
+.right{
+    background: url("img/right.jpg");
+    float:left;
+    width:50%;
+    margin:0;
+    height: 50%;
+}
+
+.left{
+    width:50%;
+    float:left;
+    margin:0;
+}
+.facebook{
+    width :5px;
+}
+
+.text{
+    text-align: center;
+}
