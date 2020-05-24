@@ -1,4 +1,22 @@
 
+h1{
+    color:#E59E79;
+}
+.logo_text {
+color:#AD7A5F;
+font-family: "Montsserat" sans-serif;
+}
+ul.menu li{
+    list-style:none;
+}
+ul.menu li a{
+    text-decoration: none;
+    color:#D9D6D0;
+}
+ul.menu li a:hover{
+    text-decoration:underline #AD7A5F 2px;
+    transition: 0.2s;
+}
 .right{
     background: url("img/right.jpg");
     float:left;
@@ -16,6 +34,11 @@
     width :5px;
 }
 
-.text{
-    text-align: center;
+
+
+.propositions h4{
+    color:#988378;
+}
+footer p{
+    color:#363A43;
 }
