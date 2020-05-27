@@ -1,4 +1,7 @@
 
+.wraper{
+    visibility: hidden;
+}
 h1{
     color:#E59E79;
 }
@@ -15,13 +18,12 @@ header{
     width: 10%;
 }
 .logo_img img{
-width:94px;
-height: 101px;
+width:100%;
 align-items: center;
 }
 
 .logo_text {
-height: 140px;
+height: 100%;
 align-items: center;
 color:#AD7A5F;
 font-family: 'Montserrat Subrayada', sans-serif;
@@ -77,12 +79,48 @@ ul.menu li a:hover{
 .facebook{
     width :5px;
 }
-
-
-
 .propositions h4{
     color:#988378;
 }
 footer p{
     color:#363A43;
 }
+
+@media only screen
+and (min-device-width : 400px)
+and (max-device-width : 768px ){
+*
+header{
+    margin:0;
+    height:300px;
+    padding-left:0;
+    padding-right: 0;
+}
+.logo_img{
+    width:50%;
+
+}
+.logo_text{
+   color:#fff;
+   font-size:15px;
+   height: 50%;
+}
+.logo_text span{
+    font-size:22px;
+    line-height: 1.4px;
+}
+
+ul .menu li{
+    font-size:1px;
+}
+
+.navbar{
+    margin-left:0px; 
+    padding-left:0px; 
+    margin-top:150px;
+    width:100%;
+    padding: 0; 
+
+}
+}
+
